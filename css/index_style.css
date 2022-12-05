@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    font-size: 1.2em;
+    font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background:  #EDEAEA ;
+    color: #333;
+    height: 500px;
+}
+
+#header {
+    background-color:#e5f8e4;
+    color:rgb(13, 15, 13);
+    text-align:left;
+    text-indent:50px;
+    padding:5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 10px 10px rgb(0 0 0 / 10%);
+}
+
+#topnav {
+    background-color:#7bab79;
+    color:white;
+    text-align:center;
+    padding:5px;
+    height: 50px;
+
+}
+#nav1 {
+    line-height:30px;
+    background-color:#b6d4b5;
+    height:100%;
+    width:100px;
+    float:left;
+    padding:5px;
+    border-top-right-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+}
+#nav2 {
+    line-height:30px;
+    background-color:#c4d4c3;
+    height:100%;
+    width:175px;
+    float:right;
+    padding:5px;	      
+}
+#section {
+    width: 100%;
+    float:left;
+    padding:10px;
+    text-indent:50px;	
+    height: 84%; 	
+    background-image:url(../image/home-background.jpg)  ; 
+}
+#footer {
+    background-color:#7bab79;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding: 20px;	
+    height: auto;  
+}
+
+   .dirc li{
+       list-style-type: none;/* 去掉li前的点 */
+       float: left;/*将li设置成做浮动，变为联动*/
+       margin-right: 50px;
+   }
+   .dirc a{
+       display: block;/*将a变成块状*/
+       width: 100px;/*设置块的宽度*/
+       height: 50px;/*设置块的长度*/
+       font-family: Microsoft Yahei;
+       line-height: 50px;/*设置字体在块中的高度*/
+       background-color: #7bab79;
+       margin: 0px 0px;/*块里的高宽通过margin设置*/
+       color: #fff;
+       text-align: center;/*字体居中*/
+       text-decoration: none;/*去掉下划线*/
+       font-size: 15px;
+       border-radius: 5px;
+   }
+
+   .left a{
+    color: #0f0f0fb9;
+    background-color:#b6d4b5 ;
+   }
+
+   .dirc a:hover{
+       background-color: #2f6f4f;
+   }
+
+   .title{
+        display: block;
+        width:60%;
+   }
+
+   .search-input input {
+    /* position: absolute; */
+    /* right: 50px;
+    top: 40px; */
+    display: block;
+    float: right;
+    height: 55px;
+    width: 500px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 3% 0 3%;
+    font-size: 18px;
+    box-shadow: 0px 1px 5px rgb(0 0 0 / 10%);
+    margin-right: 20px;
+    }
+
+    .search input {
+        line-height: 34px;
+        left: 9px;
+        top: 0;
+        text-align: initial;
+        white-space: nowrap;
+        right: 9px;
+        height: 35px;
+        width: 94%;
+        padding: 0 3% 0 3%;
+        background-color: #fff;
+        border: 1px solid #c8c8c8;
+        border-radius: 3px;
+        color: #ccc;
+        font-weight: 400;
+        font-size: 1.2em;
+    }
+
+    #banzou h3{
+        display: block;
+        margin-left: 150px;
+    }
+
+    #banzou h4{
+        display: block;
+        margin-left: 175px;
+    }
+
+    #banzou a{
+       display: block;/*将a变成块状*/
+       width: 800px;/*设置块的宽度*/
+       height: 50px;/*设置块的长度*/
+       font-family: Microsoft Yahei;
+       line-height: 50px;/*设置字体在块中的高度*/
+       background-color: rgb(166, 189, 166);
+       margin: 0px 0px;/*块里的高宽通过margin设置*/
+       color: #fff;
+       text-align: center;/*字体居中*/
+       text-decoration: none;/*去掉下划线*/
+       font-size: 15px;
+       border-radius: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 0px;
+        margin-left: 145px;
+        box-shadow: 0px 1px 5px rgb(0 0 0 / 10%);
+    }
+
+    .signbox {
+        display: block;
+        float: right;
+        height: 20px;
+        width: 155px; 
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        padding: 0 3% 0 3%;
+        font-size: 18px;
+        box-shadow: 0px 1px 5px rgb(0 0 0 / 10%);
+        margin-right: 7px;
+    }
+
+
+
+    
+
+
+    .dropdown {
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        /* 默认隐藏 */
+        display: none;
+        position: absolute;
+        margin-left: 100px;
+        
+    }
+    
+    .dropdown-content a {
+        color: black;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {background-color: #f1f1f1}
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+        background-color: #b6d4b5;
+    }
