@@ -1,0 +1,147 @@
+      <!DOCTYPE html>
+        <html lang="en">
+        
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>伴奏</title>
+            <link rel="shortcut icon" href="./image/图标.png">
+            <link rel="stylesheet" href="css/content_style.css">
+            <link rel="stylesheet" href="./css/main.css">
+            <link rel="stylesheet" href="./css/form.css">
+        </head>
+        
+        <body>
+            <div id="header">
+                <div baclass="title">
+                    <h1>睏睏的音乐钙</h1>
+                </div>
+        
+                <div class="search-input">
+                    <form action=" " target="_blank">
+                        <input class="placeholder" id="s" name="s" placeholder="回车搜索" autocomplete="off" style="height: 44px;">
+                    </form>
+        
+                </div>
+            </div>
+        
+        
+            <div id="topnav" class="dirc">
+                <li style="margin-left:  200px; ;"><a href="./index.html">首页</a></li>
+                <li><a href="./show_text.html">音阶和弦</a></li>
+                <li><a href="./edit.html">音程与歌曲</a></li>
+                <li><a href="./show_audio.html">伴奏</a></li>
+                <li><a href="./list.html">上传</a></li>
+                <li class="login-btn-group">        
+                    <a class="btn login" href="login.html" style="display: block;padding: 0%;">登录</a>
+                    <a class="btn signout" onclick="signout()"style="display: block;padding: 0%;">退出登录</a>
+    
+                </li>
+                </ul>
+            </div>
+        
+        <div class="main">
+            <div class="content">
+                <form action="" class="loaded-form"> 
+                    <h1 class="header-title">上传</h1>
+                    
+                    <span class="hint">歌曲名称</span>
+                    <input class="input loaded-name" type="text" value="浴室RIMX">
+                    <span class="hint">演出图片</span>
+                    <input class="input loaded-cover" type="text" value="./image/浴室.jpg">
+                    <span class="hint">演出场合</span>
+                    <input class="input stage" type="text" value="经济学院迎新">
+                    <span class="hint">歌曲简介</span>
+                    <textarea class="input music-intro" rows="3"></textarea>
+
+                    <span class="hint">
+                        演出地点
+                    </span>
+                    <input class="input publish-house" type="text" value="学活剧院">
+                    <span class="hint">
+                        作品发布时间
+                    </span>
+                    <input class="input publish-time" type="text" value="2022-11"> 
+
+                    <span class="hint">音乐类型</span>
+                    <select class="input tag" name="cars">
+                        <option value="saab">mix</option>
+                        <option value="fiat">流行</option>
+                        <option value="audi">摇滚</option>
+                        <option value="audi">电子</option>
+                        <option value="audi">rnb</option>
+                        <option value="audi">爵士</option>
+                        <option value="audi">rap</option>
+                        <option value="audi">民谣</option>
+                    </select>
+
+                    <span class="hint"> 演唱难度:</span>
+                    <select class="input difficult" name="cars">
+                        <option value="saab">轻松驾驭</option>
+                        <option value="audi">正好合适</option>
+                        <option value="audi">有挑战性</option>
+                        <option value="audi">要么天堂要么地狱</option>
+                    </select>
+                    <span class="hint">满意程度</span>
+                    <select class="input access" id="accesss" name="cars">
+                        <option value="saab">perfect</option>
+                        <option value="fiat">挺好的</option>
+                        <option value="audi">凑合吧</option>
+                        <option value="audi">挺多瑕疵</option>
+                        <option value="audi">唱了个什么玩意</option>
+                    </select>
+
+                    <span class="hint">他人评价</span>
+                    <select class="input material-type" name="cars">
+                        <option value="saab">震撼</option>
+                        <option value="fiat">乐感和技巧完全发挥</option>
+                        <option value="audi">好听且动人</option>
+                        <option value="audi">悦耳</option>
+                        <option value="audi">有点尬</option>
+                    </select>
+                    
+                    <p style="margin-top: 30px;">
+                        <span class="hint">伴奏乐器:</span>
+                            <form>
+                                <input type="checkbox" name="area" value="AG" style="margin-left: 20px;">木吉他
+                                <input type="checkbox" name="area" value="EG">电吉他
+                                <input type="checkbox" name="area" value="Piano">键盘
+                                <input type="checkbox" name="area" value="Drum">架子鼓
+                                <input type="checkbox" name="area" value="Base">贝斯
+                                <input type="checkbox" name="area" value="String">弦乐组
+                            </form>
+                    </p>
+                    
+                    <p style="width: 539.180px;">
+                    <span class="hint">作品来源：</span>
+                    <input type="radio" name="resource">原创
+                    <input type="radio" name="resource " style="margin-left: 95px;">转载
+                    </p>
+
+                    <div class="submit">提交</div>
+                </form>
+            </div>
+        </div>
+        <div id="footer">
+        </div>
+
+        
+    </div>
+</body>
+
+</html>
+<script type="module" src="./js/login.js"></script>
+<script type="module" src="./js/form.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+// 作者介绍
+document.getElementsByClassName('music-intro')[0].value = `　今年春天最适合听的歌 
+「一池春水 如梦的台北 多美好的人生 在颓败的地方找到快乐」
+从一个最混沌的状态里发芽，有过暴裂有过激热，很快的就开始等待最后一秒的坠地了。他需要温柔而抽离的酒精，唱漫天舞地的歌；干枯的浴室他留不住，用仅剩的个人倾向跳入蓝色的海，裸身浮沉到海口，静而凝视的姿态、拧气闭眼。
+「你会不会一去不回来 ？我在烟里等你」
+＿＿＿无法排遣、无法打发，无法洒脱地丢弃，只能坦坦面对，豁豁地与之相处。去去回回，堵了那扇门有另一散扇窗，用缓慢拖沈的喃喃说一种潮湿的快乐，闷着黏着困着，不留余地得把痛苦也合而为一。` 
+
+
+</script>

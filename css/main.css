@@ -1,0 +1,45 @@
+body {
+    min-width: 720px;
+    background-color: #eee;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.btn {
+    text-decoration: none;
+    color: #fff(34, 153, 70);
+    padding: 10px 15px 10px 15px;
+    background-color: #72ac51;
+    border-radius: 10px;
+
+}
+
+
+.btn:hover {
+    background-color: #2f6f4f;
+}
+
+.main {
+    padding: 10px;
+    padding-top: 120px;
+    padding-bottom: 20px;
+    background: #eee;
+}
+
+.main .content {
+    padding: 30px;
+    margin: auto;
+    margin-top: -75px;
+    margin-bottom: 25px;
+
+    height: 90%;
+    width: 80%;  
+    min-height: 700px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 20px;
+}

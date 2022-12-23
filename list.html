@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.bootcdn.net/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/list.css">
+    <link rel="stylesheet" href="./css/content_style.css">
+    <link rel="shortcut icon" href="./image/图标.png">
+    <title>上传歌曲</title>
+    <title>list</title>
+</head>
+
+<body>
+        <div id="header">
+            <div baclass="title">
+                <h1>睏睏的音乐钙</h1>
+            </div>
+    
+            <div class="search-input">
+                <form action=" " target="_blank">
+                    <input class="placeholder" id="s" name="s" placeholder="回车搜索" autocomplete="off" style="height: 44px;">
+                </form>
+    
+            </div>
+        </div>
+    
+
+
+        <div id="topnav" class="dirc">
+            <li style="margin-left:  200px; ;"><a href="./index.html">首页</a></li>
+            <li><a href="./show_text.html">音阶和弦</a></li>
+            <li><a href="./edit.html">音程与歌曲</a></li>
+            <li><a href="./show_audio.html">伴奏</a></li>
+            <li><a href="./list.html">上传</a></li>
+            <li class="login-btn-group">        
+                <a class="btn login" href="login.html" style="display: block;padding: 0%;">登录</a>
+                <a class="btn signout" onclick="signout()"style="display: block;padding: 0%;">退出登录</a>
+
+            </li>
+            </ul>
+        </div>
+    
+        <div class="main">
+            <div class="content">
+                <h1 class="list-title"></h1>
+                
+                <ul class="loaded-list">
+                </ul>
+
+                <div class="form">
+                    <a class="form-btn" href="./form.html">上传歌曲</a>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+        </div>
+</body>
+
+</html>
+
+<script type="module" src="./js/list.js"></script>
+<script src="./js/login.js"></script>

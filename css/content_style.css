@@ -8,7 +8,7 @@ body {
     font-size: 1.2em;
     font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,Arial,sans-serif;
     -webkit-font-smoothing: antialiased;
-    background:  #EDEAEA ;
+    background:  #f3f2f2b5 ;
     color: #333;
 }
 
@@ -70,16 +70,16 @@ body {
        margin-right: 50px;
    }
    .dirc a{
-       display: block;/*将a变成块状*/
-       width: 100px;/*设置块的宽度*/
-       height: 50px;/*设置块的长度*/
+       display: block;
+       width: 100px;
+       height: 50px;
        font-family: Microsoft Yahei;
-       line-height: 50px;/*设置字体在块中的高度*/
+       line-height: 50px;
        background-color: #7bab79;
-       margin: 0px 0px;/*块里的高宽通过margin设置*/
+       margin: 0px 0px;
        color: #fff;
-       text-align: center;/*字体居中*/
-       text-decoration: none;/*去掉下划线*/
+       text-align: center;
+       text-decoration: none;
        font-size: 15px;
        border-radius: 5px;
    }
@@ -144,16 +144,16 @@ body {
     }
 
     #banzou a{
-       display: block;/*将a变成块状*/
-       width: 800px;/*设置块的宽度*/
-       height: 50px;/*设置块的长度*/
+       display: block;
+       width: 800px;
+       height: 50px;
        font-family: Microsoft Yahei;
-       line-height: 50px;/*设置字体在块中的高度*/
+       line-height: 50px;
        background-color: rgb(166, 189, 166);
-       margin: 0px 0px;/*块里的高宽通过margin设置*/
+       margin: 0px 0px;
        color: #fff;
-       text-align: center;/*字体居中*/
-       text-decoration: none;/*去掉下划线*/
+       text-align: center;
+       text-decoration: none;
        font-size: 15px;
        border-radius: 5px;
         margin-top: 10px;

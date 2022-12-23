@@ -1,0 +1,40 @@
+
+.submit:hover {
+    cursor: pointer;
+    background-color: #2f6f4f;
+    color: #fff;
+}
+
+.submit{
+    width: 100px;
+    height: 40px;
+    border: 0ch;
+    background-color: #7bab79;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+.input{
+    line-height: 34px;
+    left: 9px;
+    top: 0;
+    text-align: initial;
+    white-space: nowrap;
+    right: 9px;
+    height: 35px;
+    width: 40%;
+    padding: 0 3% 0 3%;
+    background-color: #fff;
+    border: 1px solid #c8c8c8;
+    border-radius: 3px;
+    color: #ccc;
+    font-weight: 400;
+    font-size: 1.2em;
+}

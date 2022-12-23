@@ -18,7 +18,7 @@
 
         <div class="search-input">
             <form action=" " target="_blank">
-                <input class="placeholder" id="s" name="s" placeholder="单选框" autocomplete="off" style="height: 44px;">
+                <input class="placeholder" id="s" name="s" placeholder="回车搜索" autocomplete="off" style="height: 44px;">
             </form>
 
         </div>
@@ -27,11 +27,15 @@
 
     <div id="topnav" class="dirc">
         <li style="margin-left:  200px; ;"><a href="./index.html">首页</a></li>
-        <li><a href="./音阶和弦.html">音阶和弦</a></li>
-        <li><a href="">编曲和弦</a></li>
-        <li><a href="./音程与歌曲.html">音程与歌曲</a></li>
-        <li><a href="./伴奏.html">伴奏</a></li>
-        <li><a href="./作品上传.html">上传</a></li>
+        <li><a href="./show_text.html">音阶和弦</a></li>
+        <li><a href="./edit.html">音程与歌曲</a></li>
+        <li><a href="./show_audio.html">伴奏</a></li>
+        <li><a href="./list.html">上传</a></li>
+        <li class="login-btn-group">        
+            <a class="btn login" href="login.html" style="display: block;padding: 0%;">登录</a>
+            <a class="btn signout" onclick="signout()"style="display: block;padding: 0%;">退出登录</a>
+
+        </li>
         </ul>
     </div>
 
@@ -76,19 +80,7 @@
     </div>
 
     <div id="nav2">
-        <h3>登录</h3>
-        <form action="" method="post">
-            <p>用户名：<input type="text" name="username" class="signbox"> </p>
-            <p>密&nbsp&nbsp&nbsp码：<input type="password" name="password" class="signbox"></p>
-            <p>
-                <input type="submit">
-                <a href="../musican/注册表单.html">
-                    <input type="button" value="注册">
-                </a>
 
-            </p>
-
-        </form>
     </div>
     
     <div id="banzou" class="">
@@ -145,6 +137,10 @@
             拯救-3.mp3</a>
         </div>
     </div>
+
+
+    <script src="./js/login.js"></script>
+
 </body>
 
 </html>
