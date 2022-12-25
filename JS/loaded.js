@@ -1,7 +1,7 @@
 import { getloadeds, setloadeds } from "./util.js";
 console.log('加载歌曲详情');
 
-// 根据url path 获取到图书的id
+// 根据url path 获取id
 let query = window.location.search.substring(1);
 // 获取id
 let id = query.split("=")[1];
