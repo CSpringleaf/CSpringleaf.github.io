@@ -8,7 +8,7 @@ let id = query.split("=")[1];
 console.log(id);
 
 
-// 根据id到json文件中去获取对应的图书信息
+
 // 并判断数组长度是否大于id
 let loadeds = getloadeds();
 console.log('loaded-num',loadeds.length);

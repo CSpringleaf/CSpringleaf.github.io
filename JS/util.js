@@ -20,5 +20,5 @@ export function getloadeds() {
 export function setloadeds(loadeds) {
     let row = JSON.stringify(loadeds);
     localStorage.setItem('loadeds', row);
-    console.log('设置书单成功');
+    console.log('成功');
 }
