@@ -20,7 +20,7 @@ if (loadeds.length <= id) {
 let loaded = loadeds[id];
 
 console.log('要加载的歌曲', loaded);
-
+ 
 
 // 渲染标签
 document.getElementsByClassName('loaded-name')[0].innerHTML = loaded.loadedName;

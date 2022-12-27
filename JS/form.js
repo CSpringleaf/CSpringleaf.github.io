@@ -49,4 +49,4 @@ sumbitBtn.onclick = function () {
 
     // 页面跳转
     window.location.href = './list.html'
-}
+} 

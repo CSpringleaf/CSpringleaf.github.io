@@ -8,7 +8,7 @@ btn.forEach((item, index) => {
     item.onclick = function () {
         if (txt[index].value == "") {//当文本框中没有文字时，提示
             alert("您没有输入内容")
-        } else {
+        } else { 
             //创建元素li作为留言区
             var li = document.createElement("li");
             //将文本框中的内容放到li中,a标签中href中的内容代表什么都不执行

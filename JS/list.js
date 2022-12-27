@@ -20,4 +20,4 @@ loadeds.forEach((item, index) => {
     // console.log('html', ul.innerHTML)
 
     ul.innerHTML += "<li class=\"loaded\">" + div1 + div2 + "</li>"
-})
+}) 
